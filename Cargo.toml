@@ -1,0 +1,13 @@
+[package]
+name = "analyser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cpal = "0.15"
+rustfft = "6"
+eframe = "0.31.1"
+egui = "0.31.1"
+windows = { version = "0.48", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_System_Com"] }
+winapi = { version = "0.3", features = ["winuser"] }
+egui_plot = "0.32.1"
